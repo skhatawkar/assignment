@@ -2,7 +2,7 @@
 Pre-requsite -
   1. Java version 8
   2. Download org.json library, Link - https://jar-download.com/artifacts/org.json.
-      Note down the path.
+      Note the jar path.
         
   To run -
   
@@ -16,7 +16,7 @@ Pre-requsite -
     3. To run the java class - 
           cat /PROVIDE PATH Sample Json Object/sample.json | java -classpath ".:/PROVIDE PATH to the Jar downloaded/json-20190722.jar:" JsonReader
           
-          eg - cat /Users/Documents/interviews/mongo/sample.json | java -classpath ".:/Users/Downloads/json-20190722.jar:" JsonReader
+          eg - cat /Users/Documents/sample.json | java -classpath ".:/Users/Downloads/json-20190722.jar:" JsonReader
 
 Notes - 
 
