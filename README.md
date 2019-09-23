@@ -5,8 +5,10 @@ Pre-requsite -
         Note down the path.
         
   To run -
+  
     1. Download the JsonReader.java file.
     2. Compile the code -
+          
           javac -classpath ".:/<PROVIDE PATH TO THE JAR(Pre-requisite Step 2)>/json-20190722.jar:" JsonReader.java
           
           eg - javac -classpath ".:/Users/Downloads/json-20190722.jar:" JsonReader.java
